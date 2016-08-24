@@ -31,6 +31,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+PS1='\w\$ '
+
 #Custom stuff here
 
 #aliases
