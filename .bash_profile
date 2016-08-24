@@ -31,7 +31,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PS1='\w\$ '
+export PS1=" \d \@ \u@\w\[$(tput sgr0)\]"
 
 #Custom stuff here
 
