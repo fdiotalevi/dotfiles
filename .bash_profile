@@ -41,3 +41,6 @@ alias mkdir="mkdir -pv"
 
 #load all .bash_files
 for f in ~/.bash_files/*; do source $f; done
+
+#add bash scripts to path
+export PATH=$HOME/.bash_scripts::$PATH

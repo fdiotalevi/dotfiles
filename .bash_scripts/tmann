@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# tmann - tmux annotation
+# allows to take notes relative to a specific tmux session/window
+
+mkdir -p "$HOME/.tmann"
+vi "$HOME/.tmann/$(tmux display-message -p '#S')_$(tmux display-message -p '#W').notes"
+~
