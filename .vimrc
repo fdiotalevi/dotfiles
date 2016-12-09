@@ -1,3 +1,5 @@
+set autochdir
+
 call plug#begin('~/.vim/plugged')
 
 
