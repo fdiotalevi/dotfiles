@@ -44,3 +44,4 @@ for f in ~/.bash_files/*; do source $f; done
 
 #add bash scripts to path
 export PATH=$HOME/.bash_scripts::$PATH
+export PATH=$HOME/.my_bins::$PATH

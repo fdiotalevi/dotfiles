@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# mybin - add a binary to the current user PATH 
+# usage:   mybin <binary-file-name>
+
+mkdir -p "$HOME/.my_bins"
+cp $1 "$HOME/.my_bins"
+~
