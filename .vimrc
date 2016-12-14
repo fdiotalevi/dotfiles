@@ -1,4 +1,5 @@
 set autochdir
+set shiftwidth=2 
 
 call plug#begin('~/.vim/plugged')
 
